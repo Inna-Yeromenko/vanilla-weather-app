@@ -5,11 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
 
     <title>Weather App</title>
   </head>
   <body>
-    <div class="container"></div>
+    <div class="container">
+      <div class="weather-app">
+        <h1>Kharkiv</h1>
+        <ul>
+          <li>Sunday 18:16</li>
+          <li>Cloudy</li>
+        </ul>
+        <div class="row">
+          <div class="col-6">
+            <img
+              src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+              alt="Cloudy"
+            />
+            24℃ | ℉
+          </div>
+          <div class="col-6">
+            <ul>
+              <li>Precipitation: 59%</li>
+              <li>Humidity: 52%</li>
+              <li>Wind: 10 km/h</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <small>
+        <a
+          href="https://github.com/Inna-Yeromenko/vanilla-weather-app"
+          target="_blank"
+          >Open-source code</a
+        >
+        by Inna Yeromenko
+      </small>
+    </div>
     <script src="src/app.js"></script>
   </body>
 </html>
